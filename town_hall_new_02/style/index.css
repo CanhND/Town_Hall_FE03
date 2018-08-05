@@ -47,3 +47,38 @@ img {
   width: 80px;
   height: 80px;
 }
+
+.cleanForm {
+    width: 800px;
+}
+
+fieldset > label > input > button {
+    display: block;
+}
+
+label {
+    margin: 10px;
+    padding: 5px;
+}
+
+fieldset > label {
+    float: left;
+    width: 200px;
+}
+
+button {    
+    margin: 30px;
+    margin-left: 0px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
+
+    padding: 5px;
+}
