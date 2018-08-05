@@ -1,0 +1,31 @@
+<!-- This comments for the 2nd section -->
+<h1>San Joaquin Valley Town Hall Programs</h1>
+<h2>Pre-lecture coffe at the Sayoran</h2>
+<p>Join us for a complimentary coffee hour, 9:15 to 10:15 a.m. on the day of each lectures. The speakers usually attend this very special event.</p>
+
+<h2>Post-lecture luncheon at the Sayoran</h2>
+<p>Extend the excitement of Town Hall by purchasing tickets to the luncheons</p>
+
+
+<h1 class="base_color">Student Materials</h1>
+<p>Here is the list of links:</p>
+<ul id="links">
+  <li><a href="exercise.html">Exercise</a></li>
+  <li><a href="solutions.html">Solutions</a></li>
+</ul>
+<p id="copyright" class="base_color">copyright 2018</p>
+
+<p>Wellcome to San Joaquin Valley Town Hall</p>
+<p>We have some amazing speakers in store for you this season!</p>
+<p>Here is the list of links:</p>
+<br>
+<img src="logo.gif" alt="MyLogo">
+<p>Order your copy <i>todays!</i></p>
+<p><a href="speakers.hmtl">Speakers information></a></p>
+
+<br>
+<p> Contact us by phone at (599) 444-2180 for ticket information.</p>
+<a href="contact.html" title="Click to Contact Us" class="nav_link"> Click to Contact Us </a>
+
+<input type="checkbox" name="mailist" checked/>
+<div id="page" />
