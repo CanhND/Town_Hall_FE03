@@ -1,4 +1,10 @@
 /*Format for Section in web*/
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
   font-family: Verdana,Arial,Helvetica, sans-serif;
   font-size: 100%
@@ -7,21 +13,43 @@ body {
 header img {
   width: 80px;
   float: left;
+  padding: 0 30px;
 }
 
 header h2{
   font-size: 170%;
-  color: #800000;
-  margin: 30px;
+  color: #800000;  
 }
 
 header h3{
   font-size: 130%;
-  font-style: italic;
-  margin:; 30px;
+  font-style: italic;  
 }
 
 main h2~img {
 	width: 75px;
 	height: 75px;
+}
+
+main h1 {
+	font-size: 150%;
+}
+
+main h2{
+	font-size: 130%;
+	color: #800000;
+}
+main h3{
+	font-style: 105%;
+}
+main a:focus,a:hover{
+	font-style: italic;
+}
+
+footer p{
+	text-align: center;
+}
+
+.shadow{
+	text-shadow: 2px 2px 2px #800000;
 }
