@@ -1,184 +1,161 @@
 /*Format for Section in web*/
 * {
-  margin: 0;
-  padding: 0;
+margin: 0;
+padding: 0;
 }
-
 html {
-  background-image: -webkit-linear-gradient(to bottom, white 0%, #facd8a 100%);
-  background-image: -moz-linear-gradient(to bottom, white 0%, #facd8a 100%);
-  background-image: -o-linear-gradient(to bottom, white 0%, #facd8a 100%);
-  background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+background-image: -webkit-linear-gradient(to bottom, white 0%, #facd8a 100%);
+background-image: -moz-linear-gradient(to bottom, white 0%, #facd8a 100%);
+background-image: -o-linear-gradient(to bottom, white 0%, #facd8a 100%);
+background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
 }
-
 body {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 100%;
-  width: 700px;
-  background-color: white;
-  margin: 15px auto;
-  padding: 15px 1.5em;
-  border: 1 solid black;
-  border-radius: 25px;
-  box-shadow: 5px 5px 0 0;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 700px;
+background-color: white;
+margin: 15px auto;
+padding: 15px 1.5em;
+border: 1 solid black;
+border-radius: 25px;
+box-shadow: 5px 5px 0 0;
 }
-
 header {
-  padding-bottom: 1em;
-  border-bottom: 2px solid  #f2972e;
+padding-bottom: 1em;
+border-bottom: 2px solid  #f2972e;
 }
-
 header img {
-  width: 80px;
-  float: left;
+width: 80px;
+float: left;
 }
-
 header h2 {
-  font-size: 220%;
-  color: #f2972e;
-  text-align: center;
-  text-shadow: 2px 3px 0 black;
-  margin-bottom: .25em;
+font-size: 220%;
+color: #f2972e;
+text-align: center;
+text-shadow: 2px 3px 0 black;
+margin-bottom: .25em;
 }
-
 header h3 {
-  font-size: 130%;
-  font-style: italic;
-  text-align: center;
+font-size: 130%;
+font-style: italic;
+text-align: center;
 }
-
 main {
-  clear: left;
+clear: left;
 }
-
 main h1 {
-  font-size: 175%;
-  margin: 1em 0 .35em;
+font-size: 175%;
+margin: 1em 0 .35em;
 }
-
 main h2 {
-  font-style: 130%;
+font-style: 130%;
 }
-
 a {
-  font-weight: bold;
+font-weight: bold;
 }
-
 a:link {
-  color: #931420;
+color: #931420;
 }
-
 a:visited {
-  color: #f2972e;
+color: #f2972e;
 }
-
 a:hover, focus {
-  color: blue;
+color: blue;
 }
-
 ul {
-  line-height: 1.5;
+line-height: 1.5;
 }
-
 li {
-  font-size: 95%;
-  padding-bottom: 0.35em;
-  padding-left: 0.25em;
+font-size: 95%;
+padding-bottom: 0.35em;
+padding-left: 0.25em;
 }
-
 p {
-  font-size: 95%;
-  padding: 0.25em 0;
+font-size: 95%;
+padding: 0.25em 0;
 }
-
 em {
-  font-weight: bold;
+font-weight: bold;
 }
-
 main a.date_passed {
-  color: gray;
+color: gray;
 }
-
+.sectionleft{
+ width: 10em;
+ float: left;
+ text-align: right;
+}
+.sectionright
+{
+ margin-left: 2em;
+}
 #contact_us {
-  margin-top: 1em;
+margin-top: 1em;
 }
-
 h1, h2, h3 {
-  margin-bottom: 0.25em;
+margin-bottom: 0.25em;
 }
-
 /*Format for content*/
 ul {
-  list-style-type: square;
-  margin: 0 0 1.5em 1.25em;
+list-style-type: square;
+margin: 0 0 1.5em 1.25em;
 }
-
 #copyright {
-  font-size: 75%;
-  text-align: right;
+font-size: 75%;
+text-align: right;
 }
-
 footer {
-  margin-top: 2em;
-  border-top: 2px solid #f2972e;
-  padding-top: 0.7em;
+margin-top: 2em;
+border-top: 2px solid #f2972e;
+padding-top: 0.7em;
 }
-
 footer p {
-  font-size: 80%;
-  text-align: right;
+font-size: 80%;
+text-align: right;
 }
 /*Table Format*/
 table{
-  width: 100%;
-  border-collapse: collapse;
-  border:1px solid black;
+width: 100%;
+border-collapse: collapse;
+border:1px solid black;
 }
-
 caption{
-  margin: 10px;
-  font-size: 1.5em;
-  font-style: italic;
-
+margin: 10px;
+font-size: 1.5em;
+font-style: italic;
 }
-
 tfoot{
-  background-color: yellow;  
+background-color: yellow;
 }
-
 th{
-  border: 1px solid blue;
-  background-color: purple;
-  color: white;
-  padding: 20px;  
+border: 1px solid blue;
+background-color: purple;
+color: white;
+padding: 20px;
 }
 tr,td{
-  border: 1px solid grey;
-  text-align: center;
+border: 1px solid grey;
+text-align: center;
 }
-
 tbody tr:nth-child(2n)
 {
-  background-color: red;  
+background-color: red;
 }
-
 tbody tr:nth-child(2n+1)
 {
-  background-color: green;
+background-color: green;
 }
-
 .totalAlbums{
- text-align: right;
- font-weight: bold;
- padding-top: 20px;
- padding-right: 20px;
- padding-bottom: 20px; 
+text-align: right;
+font-weight: bold;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
 }
-
 .valueAlbums{
-  text-align: left;
-  font-weight: bold;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
+text-align: left;
+font-weight: bold;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
 }
