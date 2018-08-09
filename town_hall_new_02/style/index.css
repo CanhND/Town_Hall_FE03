@@ -80,6 +80,17 @@ font-weight: bold;
 main a.date_passed {
 color: gray;
 }
+section h3{  
+  width: 15em;
+  margin-top:-10px;
+  margin-left:20px;
+  background:white;
+  text-align: center;
+}
+.firstsection{
+  border: 1px solid blue;
+  height: 6em; 
+}
 .sectionleft{
  width: 10em;
  float: left;
@@ -89,6 +100,32 @@ color: gray;
 {
  margin-left: 2em;
 }
+.inputlayout1
+{
+ width: 10em;
+ float: left;
+ 
+ text-align: center;
+}
+.inputlayout{  
+  margin-left: 10em;
+}
+
+.alignp{
+
+}
+
+.alignp {
+  text-align:right;
+
+  
+}
+
+p input {
+  float:right;
+  margin-right: 380px;
+}
+
 #contact_us {
 margin-top: 1em;
 }
