@@ -112,10 +112,19 @@ section h3 {
 .firstsection {
     border: 1px solid blue;
     height: 6em;
+
 }
 
-.sectionleft {
-    width: 10em;
+section#stcol{
+  column-count: 2;
+}
+
+section#container{
+  float:right;
+}
+
+label {
+    width: 20em;
     float: left;
     text-align: right;
 }
@@ -125,10 +134,15 @@ section h3 {
 }
 
 .inputlayout1 {
-    width: 10em;
-    float: left;
+    /*width: 10em;*/
+    /*float: right;*/
+    text-align: right;
+}
+.inputlayout2 {
+    /*width: 10em;*/
+    /*float: right;*/
 
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .inputlayout {
@@ -138,11 +152,12 @@ section h3 {
 
 .alignp {
     text-align: right;
+    margin-right: 2em;
 }
 
 p input {
     float: right;
-    margin-right: 380px;
+    /*margin-right: 250px;*/
 }
 
 #contact_us {
