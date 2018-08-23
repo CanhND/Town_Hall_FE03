@@ -1,0 +1,20 @@
+// stylelint-disable selector-no-qualifying-type
+
+//
+// Base styles
+//
+
+$base-font-size: 25px;
+$base-color: red;
+$base-h1-font-size: 50px;
+$base-font-color: green;
+
+body{  
+  font-size:$base-font-size;
+  color:$base-font-color;
+}
+
+h1{
+  color: $base-color;
+  font-size: $base-h1-font-size;
+}
