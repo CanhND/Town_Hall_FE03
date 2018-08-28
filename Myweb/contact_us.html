@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ContactUs</title>
+    <link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm header-cust">
+        <a class="my-0 mr-md-auto" href="homepage.html">
+          <img  src="images/logo.png"/>
+        </a>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" href="homepage.html">Home</a>
+            <a class="p-2 text-dark" href="#">Subdivisions</a>
+            <a class="p-2 text-dark" href="#">Blog</a>
+            <a class="p-2 text-dark" href="#">About</a>
+            <a id="link-cust" class="p-2 text-dark" href="contact_us.html">Register</a>
+        </nav>
+    </div>
+    <div class="container" id="body-cust">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Register</h2>
+                <form class="container" action="homepage.html" method="get" accept-charset="utf-8">
+                    <!-- Fullname -->
+                    <div class="row form-label-group">
+                        <div class="col-2">
+                            <label for="inputFName">Full Name</label>
+                        </div>
+                        <div class="col-4">
+                            <input type="" id="inputName" class="form-control" placeholder="Enter your fullname" required="" autofocus="">
+                        </div>
+                    </div>
+                    <!-- Gender -->
+                    <div class="row form-label-group">
+                        <div class="col-2">
+                            <label for="inputFName">Gender</label>
+                        </div>
+                        <div class="col-4">
+                            <input type="radio" name="gender" > Male
+                            <input type="radio" name="gender" > Female
+                        </div>
+                    </div>
+                    <!-- Email -->
+                    <div class="row form-label-group">
+                        <div class="col-2">
+                            <label for="inputEmail">Email</label>
+                        </div>
+                        <div class="col-4">
+                            <input type="email" id="inputName" class="form-control" placeholder="Enter your email" required="" autofocus="">
+                        </div>
+                    </div>
+                    <!-- Username -->
+                    <div class="row form-label-group">
+                        <div class="col-2">
+                            <label for="inputUName">User Name</label>
+                        </div>
+                        <div class="col-4">
+                            <input type="" id="inputUName" class="form-control" placeholder="Enter your username" required="" autofocus="">
+                        </div>
+                    </div>
+                    <!-- Password -->
+                    <div class="row form-label-group">
+                        <div class="col-2">
+                            <label for="inputPwd">Password</label>
+                        </div>
+                        <div class="col-4">
+                            <input type="password" id="inputPwd" class="form-control" placeholder="Enter password" required="" autofocus="">
+                        </div>
+                    </div>
+                    <!-- hr fake -->
+                    <div class="row">
+                        <div class="col-12 hr-cust">
+                        </div>
+                    </div>
+                    <!-- Submit button -->
+                    <div class="row form-label-group">
+                        <div class="col-2">
+                            <!-- fake return to homepage -->
+                            <button class="btn btn-lg btn-primary btn-block" type="submit" >Submit</button>
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-lg btn-primary btn-block" type="reset"  onclick="this.form.reset()" >Cancel</button>
+                        </div>
+                    </div>
+                </form>
+                <!-- hr fake -->
+                <div class="row">
+                    <div class="col-12 hr-cust">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 footer-cust">
+            <h6 id="copyright-cust" class="text-dark" >@ 2018 Tree Valley, All rights to reserved</h6>
+        </div>
+    </div>
+</body>
+
+</html>

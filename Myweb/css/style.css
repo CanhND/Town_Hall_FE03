@@ -1,0 +1,37 @@
+body {
+    background-color: white;
+}
+
+.row-cust-footer {
+    background-color: #008AFF;
+}
+
+.header-cust {
+    background-image: url("../images/bg-nav-selected.png");
+    background-repeat: repeat;
+}
+
+.footer-cust {
+    background-image: url("../images/bg-footer.png");
+    background-repeat: repeat;    
+}
+
+.hr-cust {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#link-cust
+{
+	background-color: white;
+}
+
+#copyright-cust{
+	padding-left: 28px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#body-cust{
+	height: 500px;
+}
